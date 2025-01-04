@@ -25,7 +25,8 @@ if ready == "start":
         elif feedback == "bigger":
             low = num_guessed + 1
         else:
-            print("Invalid input! Please type 'smaller', 'bigger' or 'correct'")
+            print("Invalid input! Please type 'smaller', 'bigger' or 'correct' next time you run it")
+            break
 
         tries += 1
 
