@@ -34,5 +34,5 @@ while play_again == 'yes':
             tries += 1
 
             if tries == 10:
-                play_again = input("Ughhhhh! 10 tries for me are over, You beat me this time but you can't beat me next time. Want to play again?, Then type 'yes' or 'no' if you want to stop the program : ")
+                play_again = input("Ughhhhh! 10 tries for me are over, You beat me this time but you can't beat me next time. Want to play again?, Then type 'yes' or 'no' if you want to stop the program : ").lower()
                 break
