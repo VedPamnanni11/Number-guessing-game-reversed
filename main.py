@@ -6,7 +6,7 @@ while play_again == 'yes':
     num_guessed = 0
     tries = 0
 
-    print("Rules: if the computer's guess is bigger than your number then type 'smaller'(no caps) or if the computer's guess is smaller than your number then type 'bigger'(no caps) or the computer's guess was correct then type'correct'(no caps).")
+    print("Rules: if the computer's guess is bigger than your number then type 'smaller' or if the computer's guess is smaller than your number then type 'bigger' or the computer's guess was correct then type'correct'.")
     print("I bet I can guess your number in less than 10 tries.")
     print("Think of a number between 1 and 100 for the computer to guess")
     ready = input("If you are ready to start the game then please type 'start' then press the Enter key! : ").lower()
