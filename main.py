@@ -23,7 +23,7 @@ while play_again == 'yes':
             feedback = input("Is the computer's guess too big or too small or correct? Type 'smaller', 'bigger' or 'correct' : ").lower()
 
             if feedback == "correct":
-                play_again = input(f"Yay!, I have guessed your number {num_guessed} in {tries + 1} tries!, Do you want to play again? : ")
+                play_again = input(f"Yay!, I have guessed your number {num_guessed} in {tries + 1} tries!, Do you want to play again? : ").lower()
                 break
             elif feedback == "smaller":
                 high = num_guessed - 1
